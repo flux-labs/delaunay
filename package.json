@@ -1,0 +1,23 @@
+{
+  "name": "delaunay",
+  "version": "0.0.1",
+  "description": "Find the Delaunay triangulation of a set of points.",
+  "main": "delaunay.js",
+  "scripts": {
+    "test": "babel-tape-runner delaunay.test.js",
+    "build": "mkdir -p dist && babel delaunay.js -d dist"
+  },
+  "keywords": [
+    "delaunay",
+    "triangulation",
+    "tesselation",
+    "graph"
+  ],
+  "author": "Drew Wolpert <drew@flux.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-tape-runner": "^2.0.1",
+    "tape": "^4.5.1"
+  }
+}
